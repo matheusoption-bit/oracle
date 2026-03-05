@@ -65,7 +65,7 @@ TOOLS DISPONÍVEIS (por prefixo):
 REGRAS DE EXECUÇÃO:
 1. Leia /workspace/todo.md
 2. Execute o próximo step não marcado
-3. Salve output da tool em /workspace/tool_outputs/{timestamp}_{tool_name}.json
+3. Salve output da tool em /workspace/tool_outputs/{{timestamp}}_{{tool_name}}.json
 4. Se erro: mantenha no estado, não tente esconder
 5. Se sucesso: marque [x] no todo.md e reescreva o arquivo
 6. Loop até todos os steps estarem [x] OU max_steps atingido

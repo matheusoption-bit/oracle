@@ -7,7 +7,7 @@ import subprocess
 
 
 def aider_edit(
-    files: list[str], instruction: str, model: str = "claude-3-5-sonnet-20241022"
+    files: list[str], instruction: str, model: str = "claude-sonnet-4-5-20250929"
 ) -> str:
     """
     Chama aider para editar arquivos.

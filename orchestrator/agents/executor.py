@@ -83,7 +83,7 @@ def executor_node(state: OracleState) -> OracleState:
     tools = [mcp_fs_read_real, mcp_fs_write_real, e2b_shell_exec_real]
 
     llm = ChatAnthropic(
-        model="claude-3-5-sonnet-20241022",
+        model="claude-sonnet-4-5-20250929",
         temperature=0,
         api_key=os.getenv("ANTHROPIC_API_KEY"),
     ).bind_tools(tools)

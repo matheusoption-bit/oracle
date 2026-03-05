@@ -1,0 +1,1 @@
+Sem decisões de arquitetura registradas nesta execução.

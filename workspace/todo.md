@@ -1,0 +1,10 @@
+- [x] O diretório /workspace já existe
+- [x] Permissões de escrita estão disponíveis
+- [x] Arquivo deve conter exatamente o texto 'ok'
+- [x] **Criar arquivo marker.txt**: Usar write_file para criar /workspace/marker.txt com conteúdo 'ok'
+- [x] **Verificar criação**: Confirmar que o arquivo foi criado corretamente
+- [x] **Finalizar**: Marcar tarefa como concluída
+- [x] Arquivo /workspace/marker.txt existe
+- [x] Conteúdo do arquivo é exatamente 'ok'
+- [x] Nenhum erro durante a criação
+- [x] [ ] Step 1: Criar arquivo /workspace/marker.txt com conteúdo 'ok'

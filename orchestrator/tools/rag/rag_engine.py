@@ -3,6 +3,8 @@ RAG Engine usando LlamaIndex + pgvector.
 """
 
 from pathlib import Path
+from datetime import datetime
+import json
 import os
 
 from llama_index.core import SimpleDirectoryReader, StorageContext, VectorStoreIndex
